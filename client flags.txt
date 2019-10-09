@@ -1,0 +1,9 @@
+Flags:
+  -l string
+        Logging: "stdout" | "file" (default "stdout")
+  -s int
+        Random seed. If 1, the unix timestamp (UTC) in nanoseconds is used (default 1)
+  -t int
+        Request timeout in milliseconds, >= 0. If 0, the HTTP client will wait indefinitely (default 10000)
+  -u string
+        Endpoint URL (default "http://localhost:50123")
